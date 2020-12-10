@@ -1,0 +1,31 @@
+
+body {
+	background-color:snow;
+}
+
+table{
+	text-align: left;
+	width: 50%;
+	border-collapse: collapse;
+	
+}
+table, td, th {
+	border: 3px solid black;
+}
+div {
+	font-family: cursive;
+	font-size 40px;
+	color:darkmagenta;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+
+}
+img {
+  border-radius: 8px;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

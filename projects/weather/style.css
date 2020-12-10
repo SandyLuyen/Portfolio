@@ -1,0 +1,20 @@
+body {
+	background-color:aliceblue;
+	text-align: center;
+	border: 1px solid pink;
+	padding: 50px;
+	
+}
+h1 {
+	color: lightpink;
+	font-family: fantasy;
+	font-size: 40px;
+	
+}
+p {
+	font-family: fantasy;
+}
+button{
+	padding:5px;
+	background-color:darksalmon;
+}

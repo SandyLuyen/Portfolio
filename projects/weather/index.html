@@ -1,0 +1,38 @@
+<!doctype html> 
+<html>
+	<head>
+		<title> MyWeatherApp</title>
+		<link href="style.css" rel="stylesheet">
+		<script src="weather.js" defer></script>
+	</head>
+	
+<body>
+	<div>
+		<h1>My Weather App</h1>
+		<p> Enter your zip code to get the weather forecast </p>
+		<input type="number" id="zipcode" placeholder="Enter zip code">
+		<button id="forecast"> Get Forecast</button>
+		<div id="weatherInfo"></div>
+		
+	</div>
+	
+</body>
+	
+	degreesCelsius;
+	
+</html> 
+
+var cInput = document.getElementById("cInput").value;
+var fInput = document.getElementById("fInput").value;
+
+
+
+	if(type == "c"){
+		let celsius = document.getElementById("tempValue").value;
+		let convertedTempInFahrenheit = (celsius * 9/5 + 32);
+		
+		document.getElementById("input").innerHTML = "<p> The converted Temperature in Fahrenheit is + covertedTempInFahrenheit + </p>";
+	}
+
+
+document.getElementById("convertButton").addEventListener("click", convert, false);

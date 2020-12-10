@@ -1,0 +1,75 @@
+<!doctypeHTML> 
+<html>
+	<header>
+		<title> Sandy's Boutique </title>
+		<link href="style.css" rel="stylesheet">
+		<script src="store.js" defer></script>
+	
+	</header>
+	<h1> Sandy's Boutique </h1>
+	<body>
+		
+		
+		
+		<div id="table"></div>
+			
+	
+		
+<!--<table border="1" id="myTable">
+		
+	<caption> Jewelry </caption>
+		<tr>
+			<th>Item</th>
+			<th>Price</th>
+		</tr>
+
+		<tr>
+			<td>Earrings</td>
+			<td>80</td>
+		</tr>
+		
+		<tr>
+			<td>Necklace</td>
+			<td>60</td>
+		</tr>
+		
+		<tr>
+			<td>Bracelets</td>
+			<td>50</td>
+		</tr>
+		
+	
+		
+	</table>
+-->
+		
+		<form>
+			<label for="Item"> Item: </label> <br>
+			<input type="text" id="item" name="Item"><br>
+			<label for="QTY"> Quantity </label> <br>
+			<input type="text" id="qty" name="QTY"><br>
+			
+			</form>
+			<br>
+
+			
+			
+	<button onclick="addItem()" class="btn-add" type="button">Add item</button>
+	<button onclick="newOrder()" class="new-order" type="button">New Order</button>
+	
+		
+		
+		<br>
+		<br>
+		
+		
+		Invoice Total $
+		<div id="order-total"> </div>
+		
+		
+		
+	<textarea id="receipt"></textarea>
+	
+	</body>	
+	
+</html>

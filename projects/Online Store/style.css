@@ -1,0 +1,14 @@
+body {
+	background-color: pink; 
+	text-align: -webkit-center ;
+
+}
+table, th, td {
+	border: 1px solid black;
+}
+
+button {
+	background-color: lavender;
+	padding:10px;
+	border: 1px solid purple;
+}
